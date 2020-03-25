@@ -2,10 +2,6 @@ html{
     scroll-behavior: smooth;
 }
 
-body{
-    background-color: yellow;
-}
-
 .footer{
     display: flex;
     flex-direction: row;
@@ -17,4 +13,20 @@ body{
     bottom: 30px;
     right: 30px;
     display: none;
+}
+
+.navbar{
+    background-color: greenyellow;
+}
+
+.correct {
+    background-color: #289a27;
+}
+
+.incorrect {
+    background-color: #c41a21;
+}
+
+.buttons {
+    padding: 10px 10px 10px 0;
 }
